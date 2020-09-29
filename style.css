@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+}
+
+
+body{
+  height: 100%;
+  margin: 0;
+  background-color: #394359;
+  color: #a3a3a3
+}
+
+a {
+  color: #a3a3a3
+}
+
+a:visited {
+  color: #DF8C95
+}
+
+a:hover {
+  color: #DF8C95
+}
+
+#headline{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#toggler{
+  color: #a3a3a3
+}
+
+.navbar {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 1em;
+	border: none;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0);
+}
+
