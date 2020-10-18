@@ -1,17 +1,6 @@
-html {
-  height: 100%;
-}
-
-
-body{
-  height: 100%;
-  margin: 0;
-  background-color: #394359;
-  color: #a3a3a3
-}
 
 a {
-  color: #a3a3a3
+  color: #ffffff
 }
 
 a:visited {
@@ -31,13 +20,41 @@ a:hover {
   color: #a3a3a3
 }
 
-.navbar {
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 1em;
-	border: none;
+#main {
+  height: 100vh;
 }
 
-.navbar.transparent.navbar-inverse .navbar-inner {
-   background: rgba(0,0,0,0);
+#name {
+  padding-top: 25vh;
 }
 
+#contact {
+  padding-top: 20px;
+}
+#resume {
+  padding-top: 20px;
+}
+
+i {
+  color: black;
+}
+
+html {
+  height: 100%;
+}
+
+#sidebar {
+  background-color: #e2e2e2;
+}
+
+#content {
+ 
+}
+
+body{
+
+  margin: 0;
+  background-color: #394359;
+  color: #a3a3a3;
+  border: 10px, solid, black;
+}
